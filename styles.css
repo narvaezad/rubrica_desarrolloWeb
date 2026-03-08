@@ -1,10 +1,13 @@
 :root {
-    --negro-grisaceo: #121a14;
-    --verde-claro: #4ade80;
-    --fondo: #0b0f0c;
-    --texto-principal: #e5e7eb;
-    --texto-secundario: #9ca3af;
-    --verde-suave: #86efac;
+    --fondo: #0F172A; 
+    --secundario: #1E293B; 
+    --texto-principal: #F1F5F9;
+    --texto-secundario: #94A3B8;
+    --boton: #22C55E; 
+    --boton-hover: #16A34A;
+    --acento: #38BDF8; 
+    --card: #1E293B; 
+    --card-borde: #38BDF8;
 }
 
 * { 
