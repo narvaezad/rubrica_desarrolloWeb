@@ -1,0 +1,18 @@
+:root {
+    --negro-grisaceo: #121a14;
+    --verde-claro: #4ade80;
+    --fondo: #0b0f0c;
+    --texto-principal: #e5e7eb;
+    --texto-secundario: #9ca3af;
+    --verde-suave: #86efac;
+}
+
+* { 
+    box-sizing: border-box;
+    margin: 0;       
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
