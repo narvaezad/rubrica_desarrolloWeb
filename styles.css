@@ -51,7 +51,21 @@ main{
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    gap: 60px;
+    gap: 40px;
+}
+
+article{
+    color: var(--texto-secundario);
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
 }
 
 /* Diseños Globales */
@@ -142,7 +156,6 @@ main{
 }
 
 .inicio-article{
-    color: var(--texto-secundario);
     text-align: center;
 }
 
@@ -154,7 +167,40 @@ main{
 /* analisis section */
 .analisis{
     grid-area: analisis;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+        "titulo titulo"
+        "causas consecuencias"
+        "imagen imagen"
+    ;
+    gap: 10px;
 }
+
+.analisis-article{
+    background-color: var(--card);
+    border: 1px solid var(--card-borde);
+    padding: 10px;
+}
+
+.analisis h2{
+    grid-area: titulo;
+}
+
+.causas{
+    grid-area: causas;
+}
+
+.consecuencias{
+    grid-area: consecuencias;
+}
+
+.analisis img{
+    grid-area: imagen;
+    
+}
+
+
 
 /*derechos section */
 .derechos {
