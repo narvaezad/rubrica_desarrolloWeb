@@ -19,3 +19,8 @@
 html {
     scroll-behavior: smooth;
 }
+
+body{
+    background-color: var(--fondo);
+    color: var(--texto-principal);
+}
