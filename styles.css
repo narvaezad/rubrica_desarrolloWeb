@@ -14,17 +14,59 @@
     box-sizing: border-box;
     margin: 0;       
     padding: 0;
+    
 }
 
 html {
     scroll-behavior: smooth;
-    max-width: 1300px;
-    margin: auto;
 }
 
 body{
     background-color: var(--fondo);
     color: var(--texto-principal);
+    max-width: 1300px;
+    margin: auto;
+}
+
+section{
+    scroll-margin-top: 40px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "inicio inicio"
+    "contexto contexto"
+    "analisis derecho"
+    "soluciones soluciones"
+    "conclusion conclusion"
+    "autores autores"
+    ;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    gap: 60px;
+}
+
+/* Diseños Globales */
+.card-section{
+    background-color: var(--secundario);
+    border: 1px solid var(--card-borde);
+    border-radius: 5px;
+    box-shadow: 0 0 15px #0008;
+    padding: 20px;
+}
+
+/* Header Section  */
+
+.inicio{
+    grid-area: inicio;
 }
 
 .header{
@@ -71,12 +113,10 @@ body{
     border-radius: 6px;
 }
 
+/* Inicio section*/
+
 .inicio{
-    background-color: var(--card);
-    border: 1px solid var(--card-borde);
-    border-radius: 5px;
-    box-shadow: 0 0 15px #0008;
-    padding: 20px;
+    grid-area: inicio;
 }
 
 .contenedor-inicio{
@@ -106,3 +146,32 @@ body{
     text-align: center;
 }
 
+/* contexto section */
+.contexto{
+    grid-area: contexto;
+}
+
+/* analisis section */
+.analisis{
+    grid-area: analisis;
+}
+
+/*derechos section */
+.derechos {
+    grid-area: derecho;
+}
+
+/* soluciones section */
+.soluciones {
+    grid-area: soluciones;
+}
+
+/* conclusion section */
+.conclusion {
+    grid-area: conclusion;
+}
+
+/* Autores section */
+.autores{
+    grid-area: autores;
+}
