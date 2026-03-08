@@ -167,6 +167,10 @@ h2{
     grid-area: contexto;
 }
 
+.contexto-article{
+    padding: 8px 20px;
+}
+
 /* analisis section */
 .analisis{
     grid-area: analisis;
@@ -272,6 +276,32 @@ h2{
 
 .autor-item img{
     border-radius: 50%;
+}
+
+.contenedor-btn{
+    display: flex;
+    justify-content: end;
+
+}
+
+.btn-autor{
+    background-color: var(--boton);
+    border-radius: 10px ;
+    border: none;
+    box-shadow: 0 0 10px var(--fondo);
+    padding: 10px 20px;
+    transition: all .3s;
+}
+
+.btn-autor:hover{
+    background-color: var(--boton-hover);
+    outline: 1px solid var(--boton);
+    
+}
+
+.btn-autor a{
+    text-decoration: none;
+    color: var(--texto-principal);
 }
 
 /*Footer section*/
