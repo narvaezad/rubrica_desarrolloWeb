@@ -50,7 +50,7 @@ main{
     ;
     max-width: 1200px;
     width: 100%;
-    margin: auto;
+    margin: 20px auto;
     gap: 40px;
     max-width: 1300px;
 }
@@ -281,7 +281,6 @@ h2{
 .contenedor-btn{
     display: flex;
     justify-content: end;
-
 }
 
 .btn-autor{
