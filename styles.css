@@ -115,7 +115,7 @@ h2{
 }
 
 .links :hover{
-    color: var(--texto-secundario);
+    color: #972c2c;
 }
 
 .links a{
@@ -226,7 +226,14 @@ h2{
     color: var(--boton-hover);
 }
 
+.deber {
+    margin-bottom: 10px;
+}
 
+.deber:hover{
+    background: #115e7c;
+
+}
 /* soluciones section */
 .soluciones {
     grid-area: soluciones;
@@ -278,13 +285,19 @@ h2{
     border-radius: 50%;
 }
 
+.autor-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 .contenedor-btn{
     display: flex;
     justify-content: end;
 }
 
 .btn-autor{
-    background-color: var(--boton);
+    background-color: #1E3A8A;
     border-radius: 10px ;
     border: none;
     box-shadow: 0 0 10px var(--fondo);
@@ -293,7 +306,7 @@ h2{
 }
 
 .btn-autor:hover{
-    background-color: var(--boton-hover);
+    background-color: linear-gradient(45deg, #111111, var(--boton-hover));
     outline: 1px solid var(--boton);
     
 }
