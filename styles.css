@@ -285,7 +285,7 @@ h2{
 }
 
 .btn-autor{
-    background-color: #1E3A8A;
+    background-color: var(--boton);
     border-radius: 10px ;
     border: none;
     box-shadow: 0 0 10px var(--fondo);
@@ -294,7 +294,7 @@ h2{
 }
 
 .btn-autor:hover{
-    background-color: linear-gradient(45deg, #111111, var(--boton-hover));
+    background-color: var(--boton-hover);
     outline: 1px solid var(--boton);
     
 }
