@@ -28,6 +28,6 @@ El sitio web está dividido en varias secciones:
 
 ## Autor
 
-Andrés Narvaez 
-Camilo Ortiz
-Sebastian Mejia
+Andrés Narvaez, 
+Camilo Ortiz,
+Sebastian Mejia.
