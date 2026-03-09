@@ -115,7 +115,7 @@ h2{
 }
 
 .links :hover{
-    color: var(--texto-secundario);
+    color: #972c2c;
 }
 
 .links a{
